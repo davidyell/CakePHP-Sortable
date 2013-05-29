@@ -27,3 +27,5 @@ Also you'll want to include the field on the view in order to submit the updated
     echo $this->Html->link('Cancel', array('action' => 'index'), array('class' => 'btn'));
     ?>
 ```
+ ##Todo
+* Consider refactoring the data management into a behaviour
