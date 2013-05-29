@@ -1,7 +1,7 @@
 #CakePHP-Sortable
 A small component to implement sortable tables with id's in a Cake view. This allows you to easily attach sorting to any table.  
 
-It includes the jQuery StupidTable plugin to facilitate the sorting, and also a component to deal with the saving.
+It includes the [jQuery StupidTable](https://github.com/joequery/Stupid-Table-Plugin) plugin to facilitate the sorting, and also a component to deal with the saving.
 
 ##Installation
 Install this as you would any other plugin using `CakePlugin::load('Sortable');` unless you are already using `CakePlugin::loadAll()`.
