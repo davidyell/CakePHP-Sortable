@@ -13,7 +13,7 @@ This makes use of the [NiceAdmin](https://github.com/davidyell/CakePHP-NiceAdmin
 In your controller you will need to include it in your components array.  
 ```
     public $components = array(
-        'Sortable'
+        'Sortable.Sortable'
     );
 ```  
 
@@ -27,5 +27,5 @@ Also you'll want to include the field on the view in order to submit the updated
     echo $this->Html->link('Cancel', array('action' => 'index'), array('class' => 'btn'));
     ?>
 ```
- ##Todo
+##Todo
 * Consider refactoring the data management into a behaviour
