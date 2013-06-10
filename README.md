@@ -11,21 +11,21 @@ This makes use of the [NiceAdmin](https://github.com/davidyell/CakePHP-NiceAdmin
 
 ##Usage
 In your controller you will need to include it in your components array.  
-```
-    public $components = array(
-        'Sortable.Sortable'
-    );
+```php
+public $components = array(
+    'Sortable.Sortable'
+);
 ```  
 
 Also you'll want to include the field on the view in order to submit the updated ranks to the component.  
 
-```
-    <?php
-    echo $this->Form->create();
-    echo $this->Form->input('updated-ranks', array('id' => 'updated-ranks', 'type' => 'hidden'));
-    echo $this->Form->submit('Save sort order', array('class' => 'btn btn-success', 'div' => false));
-    echo $this->Html->link('Cancel', array('action' => 'index'), array('class' => 'btn'));
-    ?>
+```php
+<?php
+echo $this->Form->create();
+echo $this->Form->input('updated-ranks', array('id' => 'updated-ranks', 'type' => 'hidden'));
+echo $this->Form->submit('Save sort order', array('class' => 'btn btn-success', 'div' => false));
+echo $this->Html->link('Cancel', array('action' => 'index'), array('class' => 'btn'));
+?>
 ```
 ##Todo
 * Consider refactoring the data management into a behaviour
