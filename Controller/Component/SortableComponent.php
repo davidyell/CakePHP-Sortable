@@ -53,7 +53,7 @@ class SortableComponent extends Component {
             }
 
             $controller->loadModel($this->settings['model']);
-            if ($controller->{$this->settings['model']}->saveAll($data)) {
+            if ($controller->{$this->settings['model']}->saveAll($data, array('validate' => false))) {
                 $controller->Session->setFlash($this->settings['model'].' order updated', 'NiceAdmin.alert-box', array('class' => 'alert-success'));
                 $controller->redirect($controller->referer());
             } else {
