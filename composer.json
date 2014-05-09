@@ -11,28 +11,8 @@
             "email": "dyell@ukwebmedia.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "joequery/stupid-table-plugin",
-                "version": "dev-master",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://github.com/joequery/Stupid-Table-Plugin/archive/master.zip"
-                },
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/joequery/Stupid-Table-Plugin.git",
-                    "reference": "master"
-                }
-            }
-
-        }
-    ],
     "minimum-stability": "dev",
     "require": {
-        "composer/installers": "~1.0",
-        "joequery/stupid-table-plugin": "dev-master"
+        "composer/installers": "~1.0"
     }
 }
