@@ -1,5 +1,5 @@
 {
-    "name": "david/cake-php-sortable",
+    "name": "david/sortable",
     "description": "A small component to implement sortable tables with id's in a Cake view. This allows you to easily attach sorting to any table.",
     "type": "cakephp-plugin",
     "extra": {
