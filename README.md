@@ -6,6 +6,8 @@ It includes the [jQuery StupidTable](https://github.com/joequery/Stupid-Table-Pl
 ##Installation
 Install this as you would any other plugin using `CakePlugin::load('Sortable');` unless you are already using `CakePlugin::loadAll()`.
 
+You can also install the plugin from Packagist using Composer `composer require davidyell/sortable`
+
 ##Requirements
 This makes use of the [NiceAdmin](https://github.com/davidyell/CakePHP-NiceAdmin) alert-box element.
 
