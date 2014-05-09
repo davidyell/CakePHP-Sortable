@@ -1,0 +1,25 @@
+{
+    "name": "david/cake-php-sortable",
+    "description": "A small component to implement sortable tables with id's in a Cake view. This allows you to easily attach sorting to any table.",
+    "type": "cakephp-plugin",
+    "extra": {
+        "installer-name": "Sortable"
+    },
+    "authors": [
+        {
+            "name": "David Yell",
+            "email": "dyell@ukwebmedia.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/joequery/Stupid-Table-Plugin.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "composer/installers": "~1.0",
+        "joequery/Stupid-Table-Plugin": "dev-master"
+    }
+}
